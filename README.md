@@ -1,0 +1,2 @@
+# JAVASCRIPT
+A JS Repo for JAVASCRIPT Language
