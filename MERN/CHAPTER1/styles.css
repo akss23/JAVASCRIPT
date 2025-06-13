@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header table td {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+header img {
+    height: 60px;
+}
+
+/* Main Section Styling */
+main {
+    text-align: center;
+    color: white;
+    background: url('https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/09/20125552/iit-rorkee.jpeg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+main .highlight {
+    color: yellow;
+    font-size: 42px;
+}
+
+/* Button Styling */
+main a {
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+main a:hover {
+    background-color: orange;
+    color: white;
+}

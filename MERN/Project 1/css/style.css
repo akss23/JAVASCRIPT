@@ -1,0 +1,128 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #ff0000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 67px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* About section */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Logo in the main content */
+main img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Search bar styling */
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #ff6666;
+}
+
+/* Background for search bar and logo */
+main {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+}
+/* Fade-in effect when elements appear on scroll */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+section, main img {
+    opacity: 0;
+    transform: translateY(20px); /* Start with elements slightly below */
+}
+
+/* Hover effect for the search bar */
+input[type="text"]:focus {
+    transform: scale(1.05); /* Slightly grow the search bar */
+    transition: transform 0.3s ease;
+}
+
